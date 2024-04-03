@@ -1,11 +1,7 @@
 package Parte2_figurasGeometricas;
-
 import Parte1.Entradas;
 
 import javax.swing.*;
-
-import static java.util.function.Predicate.not;
-
 /**
  * Esta clase prueba diferentes acciones realizadas en diversas figuras geométricas.
  * @version 1.2/2020
