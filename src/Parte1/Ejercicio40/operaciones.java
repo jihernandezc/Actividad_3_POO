@@ -18,7 +18,9 @@ class operaciones {
 
         for(int i = 0; i < numerosLista.length; i++){
             Float num = Float.parseFloat(numerosLista[i]);
-
+            if (num < 0) {
+                throw new ArithmeticException();
+            }
             float raiz = (float) Math.sqrt(num);
             raices[i] = raiz;
             float cuadrado = (float) Math.pow(num, 2);

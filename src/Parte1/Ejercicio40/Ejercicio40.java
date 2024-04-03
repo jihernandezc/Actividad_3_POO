@@ -15,7 +15,7 @@ public class Ejercicio40 extends operaciones implements Entradas {
 
         while (start) {
             try {
-                String numeros = Entradas.alfanumerica("Ingrese los números separados por un espacio: ");
+                String numeros = Entradas.alfanumerica("Ingrese los números separados por un espacio. \nRecuerde que deben ser positivos.");
                 Ejercicio40 operaciones = new Ejercicio40(numeros);
                 operaciones.ejecutarOperaciones();
                 start = false;
