@@ -15,5 +15,4 @@ public class Ejercicio23 extends cuadratica implements Entradas {
         Ejercicio23 ecuacion = new Ejercicio23(a, b, c);
         ecuacion.resolverEcuacion();
     }
-
 }

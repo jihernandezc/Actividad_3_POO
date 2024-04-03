@@ -20,5 +20,4 @@ public class Ejercicio18 extends Empleado implements Entradas {
 
         JOptionPane.showMessageDialog(null, "El empleado #" + empleado.codigo + " " + empleado.nombre + " tiene:" + "\nSalario bruto: $" + empleado.SalarioBruto() + "\nSalario neto: $" + empleado.SalarioNeto());
     }
-
 }

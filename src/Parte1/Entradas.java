@@ -36,7 +36,7 @@ public interface Entradas {
         }
     }
 
-    static float entero(String mensaje) {
+    static Integer entero(String mensaje) {
         while (true) {
             try {
                 Integer entrada = Integer.parseInt(JOptionPane.showInputDialog(mensaje));

@@ -19,5 +19,4 @@ public class Ejercicio10 extends Estudiante implements Entradas {
 
         JOptionPane.showMessageDialog(null, "Número de inscripción: " + estudiante.nInscripcion + "\nNombre: " + estudiante.nombre + "\nMatrícula a pagar: $" + estudiante.calcularMatricula());
     }
-
 }
